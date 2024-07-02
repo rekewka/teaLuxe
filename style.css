@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-bar{
+    font-family: "Cormorant";
+    font-size: 24px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color : #151618;
+    transition: opacity 0.3s;
+}
+
+.link:hover{
+    opacity: 0.2;
+}
+
+.nav-links{
+    display: flex;
+    gap : 65px;
+}
+
+.icon-split{
+    padding-left: 100px;
+}
+
+.welcome{
+    height: 500px;
+    margin-bottom: 150px;
+    background-image: url(img/welcome-photo.svg);
+}
+.main-header-text-1{
+    color : #151618;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Cormorant";
+    font-style: italic;
+    font-weight: 300;
+}
+
+.main-header-text-2{
+    color : #151618;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Cormorant";
+    font-style: italic;
+    font-weight: 300;
+}
+
+.main-header{
+    margin-bottom: 150px;
+}
+
+.explore{
+    margin-bottom: 150px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: #151618;
+    font-weight: 400;
+    font-family: "Cormorant";
+}
+
+.teas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tea-photo{
+    margin-bottom: 10px;
+}
+
+.tea-info{
+    max-width: 208px;
+}
+
+.tea-name{
+    display: flex;
+    justify-content: center;
+    color: #151618;
+    font-size: 24px;
+    font-family: "Cormorant";
+}
+
+.reviews{
+    background-color : #F7F2EA;
+    height: 397px;
+    margin-bottom: 150px;
+}
+
+.special{
+    padding-top: 60px;
+}
+
+.comments{
+    display:flex;
+    justify-content: space-between;
+}
+
+.comment{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #151618;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 20px;
+    color: #151618;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.blog{
+    margin-bottom: 120px;
+}
+
+.row-1{
+    color: #151618;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+.blog-1{
+    display: flex;
+}
+
+.blog-2{
+    display: flex;
+}
+
+.blog-3{
+    display: flex;
+}
+
+.blog-4{
+    display: flex;
+}
+
+.blog-content{
+    padding-left: 20px;
+}
+
+.blog-paragraph{
+    font-size: 24px;
+    font-family: "Cormorant";
+    margin-bottom: 10px;
+}
+
+.blog-authour{
+    margin-bottom: 21px;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+
+.read{
+    display: flex;
+}
+
+.read-text{
+    padding-right: 8px;
+}
+
+.special-text{
+    width: 210px;
+    height: 86px;
+}
+
+.row-2{
+    color: #151618;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Open Sans";
+    border: solid #151618;
+    width: 149px;
+    height: 51px;
+    align-items: center;
+    color : #151618;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    color : white;
+}
+
+.heading-view{
+    display: flex;
+    justify-content: center;
+}
+
+.to-join{
+    background-color: #F7F2EA;
+    height: 418px;
+    margin-bottom: 83px;
+}
+
+.split-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-text{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #151618;
+    font-family: "Cormorant";
+}
+
+.sub-text{
+    line-height: 150%;
+    width: 580px;
+    height: 120px;
+    color: #151618;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.join-section{
+    margin-top: 198px;
+}
+
+.warn-text{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 13px;
+    color: #151618;
+    width: 560px;
+    height: 54px;
+    padding-left: 10px;
+}
+
+.email-join{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.join-button{
+    border: #151618 solid;
+    color : #151618;
+    background-color: white;
+    height: 51px;
+    width: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.email-input{
+    border: none;
+    border-bottom: solid #B8B58B;
+    background-color: #F7F2EA;
+    width: 439px;
+    margin-right: 25px;
+    outline: none;
+}
+
+.email-input::placeholder{
+    position: absolute;
+    top: 5px;
+    color : #B8B58B;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans";
+    line-height: 150%;
+    padding-top: 15px;
+}
+
+.email-input[type=text]{
+    padding-top: 17px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.checkmark{
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+    accent-color: white;
+}
+
+.warn{
+    display: flex;
+}
+
+.prioritise{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.prioritise-text{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Cormorant";
+    color: #151618;
+    margin-bottom: 60px;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-heading{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 30px;
+    color: #151618;
+    margin-bottom: 15px;
+}
+
+.group-text{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #151618;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #F7F2EA;
+    height: 593px;
+}
+
+.footer-info{
+    display: flex;
+}
+
+.products-company{
+    padding-top: 100px;
+    display: flex;
+    gap : 213px;
+}
+
+.products-heading{
+    margin-bottom: 50px;
+    font-family: "Cormorant";
+    font-size: 24px;
+    color: #151618;
+    font-weight: 400;
+}
+
+.product-name{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #151618;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.company-heading{
+    font-family: "Cormorant";
+    font-size: 24px;
+    color: #151618;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.links{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #151618;
+    font-weight: 300;
+}
+
+.li-link{
+    margin-bottom: 20px;
+}
+
+.quote-contact{
+    padding-left: 155px;
+    display: flex;
+}
+
+.quote{
+    padding-top: 179px;
+}
+
+.contact{
+    padding-left: 41px;
+    padding-top: 100px;
+}
+
+.quote-text{
+    width: 269px;
+    height: 110px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #151618;
+    margin-bottom: 20px;
+}
+
+.quote-authour{
+    width: 129px;
+    height: 32px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #151618;
+}
+
+.contact-heading{
+    font-size: 24px;
+    font-family: "Cormorant";
+    font-weight: 400;
+    color: #151618;
+    margin-bottom: 50px;
+}
+
+.contact-text{
+    width: 270px;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #151618;
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+}
+
+.img-contact{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 41px;
+}
+
+.info-email{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.info-phone{
+    display: flex;
+    gap: 10px;
+}
+
+.company-email{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 13px;
+    color: #151618;
+}
+
+.company-phone{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 13px;
+    color: #151618;
+}
+
+.social-media-links{
+    padding-left: 97px;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.copyright-payment{
+    max-width: 466px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-heading{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #151618;
+}
+
+.payment-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.error{
+    background-color: red;
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: fit-content;
+}
+
+
+
